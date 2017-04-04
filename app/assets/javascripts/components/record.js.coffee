@@ -43,7 +43,7 @@
           onClick: @handleToggle
           'Edit'
         React.DOM.a
-          className: 'btn btn-danger'
+          className: 'btn btn-danger margin-left'
           onClick: @handleDelete
           'Delete'
   recordForm: ->
@@ -72,6 +72,6 @@
           onClick: @handleEdit
           'Update'
         React.DOM.a
-          className: 'btn btn-danger'
+          className: 'btn btn-danger margin-left'
           onClick: @handleToggle
           'Cancel'

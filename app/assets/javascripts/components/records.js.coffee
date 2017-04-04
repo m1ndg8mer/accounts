@@ -30,7 +30,7 @@
     React.DOM.div
       className: 'records'
       React.DOM.h2
-        className: 'title'
+        className: 'title text-center'
         'Records'
       React.DOM.div
         className: 'row'
